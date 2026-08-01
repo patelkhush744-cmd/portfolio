@@ -1,1 +1,1 @@
-console.log("Welcome to Khush Portfolio");
+console.log("Portfolio Loaded Successfully");
