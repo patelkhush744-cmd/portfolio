@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    text-align:center;
+}
+
+header{
+    padding:80px 20px;
+}
+
+h1{
+    font-size:55px;
+    color:#38bdf8;
+}
+
+h2{
+    margin-top:40px;
+    color:#38bdf8;
+}
+
+p{
+    margin:20px;
+    line-height:1.8;
+}
+
+section{
+    padding:50px;
+}
+
+ul{
+    list-style:none;
+}
+
+li{
+    padding:10px;
+}
+
+footer{
+    padding:20px;
+    background:#111827;
+}
