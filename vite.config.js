@@ -1,3 +1,5 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
-export default defineConfig({ plugins: [react()] });
+
+// Relative asset paths work on the project site URL and on a custom domain.
+export default defineConfig({ base: "./", plugins: [react()] });
