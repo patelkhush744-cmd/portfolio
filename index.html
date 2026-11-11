@@ -6,12 +6,19 @@
   <meta name="theme-color" content="#000000" />
   <meta name="description" content="Khush Patel — BCA student, Java developer, web developer and cyber security enthusiast." />
   <title>Khush Patel — Portfolio</title>
+  <style>
+    html,body,#root{min-height:100%;margin:0;background:#000;color:#f5f1ea}
+    body{min-height:100vh}
+    #boot-fallback{min-height:100vh;display:grid;place-content:center;text-align:center;font:16px system-ui;color:#f5f1ea;background:#000}
+    #boot-fallback strong{font-size:clamp(32px,8vw,72px);letter-spacing:-.04em}
+    #boot-fallback span{color:#ff4d1a}
+  </style>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Inter:wght@400;500;600&display=swap" rel="stylesheet" />
 </head>
 <body>
-  <div id="root"></div>
-  <script type="module" src="/src/main.jsx"></script>
+  <div id="root"><div id="boot-fallback"><strong>KHUSH <span>PATEL.</span></strong><p>Loading portfolio…</p></div></div>
+  <script type="module" src="./src/main.jsx"></script>
 </body>
 </html>
